@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pythondatabase"
+version = "0.1.0"
+description = ""
+authors = ["Valeriya Ryabkova <larioja0531@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+psycopg2 = "^2.9.10"
+binary = "^1.0.1"
+flake8 = "^7.2.0"
+black = "^25.1.0"
+mypy = "^1.15.0"
+isort = "^6.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
